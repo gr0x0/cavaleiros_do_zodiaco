@@ -1,0 +1,50 @@
+//ARQUIVO DE VALORES DAS CASAS
+//
+//Casa de Aries
+{50
+(37;21)
+}
+//Casa de Touro
+{55
+(31;17)
+}
+//Casa de Gêmeos
+{60
+(31;33)
+}
+//Casa de Câncer
+{70
+(24;26)
+}
+//Casa de Leão
+{75
+(24;9)
+}
+//Casa de Virgem
+{80
+(17;9)
+}
+//Casa de Libra
+{85
+(17;29)
+}
+//Casa de Escorpião
+{90
+(13;37)
+}
+//Casa de Sagitário
+{95
+(9;27)
+}
+//Casa de Capricórnio
+{100
+(9;14)
+}
+//Casa de Aquário
+{110
+(4;13)
+}
+//Casa de Peixes
+{120
+(4;30)
+}

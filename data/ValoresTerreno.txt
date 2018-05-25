@@ -1,0 +1,83 @@
+//ARQUIVO DE VALORES DE TERRENO
+//
+//SINTAXE:
+//O arquivo é lido linha por linha
+//O conceito mais abrangente é o de blocos, que são linhas que trazem '{X' para abrir o bloco e '}' para fechar o bloco
+//'X' é um valor inteiro a ser inserido em todas as coordenadas definidas no interior daquele bloco
+//Após o valor ser definido no início do bloco, as coordenadas são definidas no formato '(i;j)', linha e coluna respectivamente
+//Os valores 'i' e 'j' podem representar valores pontuais ou sequências de valores cujos extremos são separados por til
+//	Exemplo: para representar todas as coordenadas entre i=(5..10) e j=(5..20), escreve-se (5~10;5~20)
+//Note que os extremos são incluídos como parte da sequência e receberão o valor indicado
+//De forma semelhante, as coordenadas podem representar um conjunto pontual e não sequencial de valores separados por vírgulas
+//	Exemplo: para representar todas as coordenadas entre i=(0..19) e em j=5, j=7 e j=12, escreve-se (0~19;5,7,12)
+//Linhas que comecem com '//' são percebidas como 'linhas comentadas' e, portanto, são ignoradas
+//A orientação usada para as coordenadas é a mesma de matrizes em java, portanto i é linha e j é coluna e ambas iniciam em 0
+//Adicionalmente, vale perceber que o ponto [0,0] é o topo esquerdo da matriz
+//
+//
+//Preenchendo tudo com Montanhas
+{200
+(0~41;0~41)
+}
+//
+//Preenchendo o caminho com Planos	
+{1
+(3~5;3~38)
+(6,7;3~5)
+(8~10;3~38)
+(11~15;36~38)
+(16~18;3~38)
+(19~22;3~5)
+(23~25;3~38)
+(26~29;36~38)
+(30~32;3~38)
+(33~35;3~5)
+(36~38;3~38)
+}
+//
+//Preenchendo os pontos Rochosos
+{5
+(3;18,19,21,23)
+(4;4,5,6,8,10,16,21,23,25,26,27)
+(5;8,10,16,18,19,25)
+(6;4,5)
+(7;4)
+(8;4,7,20,22,33,36)
+(9;4,7,9,10,11,17,20,22,23,24,30,33,36,37)
+(10;11,17,24,30)
+(11;37)
+(16;7,12,18,24,34,35,37)
+(17;7,11,12,15,18,20,21,24,26,27,32,35,37)
+(18;3,4,15,21,32)
+(20;3,4)
+(22;4)
+(23;4,15,23,30,33)
+(24;4,5,7,12,13,15,16,17,19,20,21,23,24,28,30,31,33,35)
+(25;7,17,19,35,36,37)
+(27;36,37)
+(29;36,37)
+(30;7,12,25,26,27,31,35,37)
+(31;3,4,5,7,9,12,14,15,20,22,23,25,31,35,37)
+(32;9,20,23,25,28,29)
+(33;4,5)
+(35;4,5)
+(36;5,12,16,19,28)
+(37;5,6,7,9,12,15,16,17,19,23,25,26,28,30,33)
+(38;9,19,23,33)
+}
+//
+//Preenchendo os pontos inicial e final
+{0
+(4,37;37)
+}
+//
+//Preenchendo as bordas das Casas com Montanhas
+{200
+(3,5;13,30)
+(8,10;14,27)
+(13;36,38)
+(16,18;9,29)
+(23,25;9,26)
+(30,32;17,33)
+(36,38;21)
+}
